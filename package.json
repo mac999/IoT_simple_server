@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/nw.gui": "0.0.20",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "i": "^0.3.6",
+    "johnny-five": "^2.0.0",
+    "npm": "^7.19.1",
+    "nw": "^0.54.1",
+    "nwjs-j5-fix": "^1.0.6",
+    "serialport": "^9.2.0",
+    "socket.io": "^4.1.2",
+    "util": "^0.12.4"
+  }
+}
